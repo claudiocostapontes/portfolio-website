@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudionor Pontes | Arquiteto de Software Sênior</title>
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        slate: {
+                            850: '#151e2e',
+                            950: '#0b1120',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-300 font-sans antialiased">
+
+    <!-- Navegação com Botão Voltar à Esquerda -->
+    <header class="fixed w-full top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            
+            <!-- Lado Esquerdo: Botão Voltar + Logo -->
+            <div class="flex items-center gap-6">
+                <a href="index.html" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-300 rounded-md hover:text-cyan-400 hover:border-cyan-800 transition-all text-sm font-medium">
+                    &larr; Voltar
+                </a>
+                <a href="index.html" class="text-white font-bold text-xl tracking-tighter hover:opacity-80 transition-opacity" title="Voltar ao Portfólio Principal">
+                    Claudionor<span class="text-cyan-400">.Pontes</span>
+                </a>
+            </div>
+
+            <!-- Lado Direito: Menu de Navegação -->
+         <!-- <ul class="flex space-x-6 text-sm font-medium items-center hidden md:flex">
+                <li><a href="#resumo" class="hover:text-cyan-400 transition-colors">Resumo</a></li>
+                <li><a href="#experiencia" class="text-cyan-400 hover:text-cyan-300 transition-colors border-b-2 border-cyan-400 pb-1">Experiência</a></li>
+                <li><a href="#competencias" class="hover:text-cyan-400 transition-colors">Competências</a></li>
+                <li><a href="#formacao" class="hover:text-cyan-400 transition-colors">Formação</a></li>
+            </ul> -->
+            
+        </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pt-32 pb-20 space-y-24">
+        
+        <!-- Cabeçalho / Hero -->
+        <section id="hero" class="border-b border-slate-800 pb-12">
+            <h1 class="text-5xl font-extrabold text-white tracking-tight mb-4">Claudionor Pontes</h1>
+            <h2 class="text-xl text-cyan-400 font-mono mb-6 leading-relaxed">
+                Desenvolvedor Full Stack | Arquiteto de Software Sênior | Modernização de Arquiteturas Bancárias e Governamentais | Microsserviços, Event-Driven e Cloud Azure | Estrategista em Segurança da Informação | Liderança Técnica
+            </h2>
+            <div class="flex flex-wrap gap-4 text-sm text-slate-400 font-mono">
+                <span class="flex items-center gap-2">📍 Brasilia e Região</span>
+                <span class="flex items-center gap-2">📞 (61) 981450236</span>
+                <span class="flex items-center gap-2">✉️ claudionor.pontes@outlook.com</span>
+               <a href="https://www.linkedin.com/in/claudioarquiteto" target="_blank" rel="noopener noreferrer" class="flex items-center 
+               gap-2 hover:text-cyan-400 transition">🔗 linkedin.com/in/claudioarquiteto</a>
+            </div>
+        </section>
+
+        <!-- Resumo -->
+        <section id="resumo" class="scroll-mt-32">
+            <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><span class="text-cyan-400 mr-2"></span>Resumo:</h3>
+            <p class="text-slate-400 leading-relaxed text-lg text-justify">
+                Com mais de 20 anos de trajetória sólida na área de TI, minha carreira evoluiu do desenvolvimento prático para a arquitetura de soluções complexas e engenharia de sistemas. Minha atuação é pautada pelo equilíbrio entre a entrega técnica de alta performance e a visão estratégica necessária para sustentar o crescimento do negócio. O que entrego: Arquitetura &amp; Modernização: Especialista em transformar sistemas legados em arquiteturas modernas de microsserviços, serverless e event-driven, utilizando C4 Model para garantir clareza e governança. Ecossistema Técnico: Domínio profundo em Java (Spring Boot, Quarkus), Node.js e Angular, com foco em sistemas distribuídos e alta disponibilidade em ambiente Cloud (Azure). Segurança &amp; Observabilidade: Implementação de Security by Design (OWASP, IAM) e estratégias de monitoramento avançado com Prometheus, Grafana e Open Telemetry para garantir estabilidade e rastreabilidade total. Atuo como um facilitador entre as necessidades de negócio e a execução tecnológica, mentorando equipes e definindo padrões técnicos que elevam a maturidade da engenharia de software na organização. Tenho vasta experiência em ambientes de alta criticidade, como os setores bancário e governamental.
+            </p>
+        </section>
+
+        <!-- Experiência -->
+        <section id="experiencia" class="scroll-mt-32">
+            <h3 class="text-3xl font-bold text-white mb-10 flex items-center border-b border-slate-800 pb-4"><span class="text-cyan-400 mr-3">#</span> Experiência Profissional</h3>
+            
+            <div class="space-y-12">
+                <!-- CAIXA -->
+                <div class="bg-slate-850 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/30 transition-colors relative overflow-hidden">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-cyan-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Desenvolvedor Web/Java</h4>
+                            <p class="text-lg text-cyan-400">CAIXA</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-sm font-mono text-slate-400">novembro de 2020 - Presente (5 anos 6 meses)</span>
+                            <span class="block text-sm text-slate-500">Brasilia, DF</span>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm leading-relaxed mt-4">
+                        <li>Desenvolvimento e sustentação de sistemas críticos utilizando Java 17 e Spring Boot, focando em alta disponibilidade e confiabilidade.</li>
+                        <li>Construção de APIs Mulesoft RESTful escaláveis, incluindo processos assíncronos para otimização de performance.</li>
+                        <li>Desenvolvimento Frontend de interfaces ricas e responsivas utilizando AngularJS.</li>
+                        <li>Implementação de arquitetura orientada a eventos e mensageria distribuída com RabbitMQ e Kafka.</li>
+                        <li>Gestão de identidade e acesso utilizando Keycloak para garantir a segurança das aplicações.</li>
+                        <li>Gestão e deploy de aplicações em servidores WebSphere, com análise de logs e tunning de ambiente.</li>
+                        <li>Implementação de rotinas de Processamento Batch para conciliação de grandes volumes de dados financeiros.</li>
+                        <li>Documentação técnica de APIs com Swagger, padronizando a comunicação entre times.</li>
+                        <li>Responsável por assegurar a qualidade do código por meio da implementação de testes unitários automatizados utilizando JUnit e Mockito.</li>
+                    </ul>
+                </div>
+
+                <!-- Brasilprev -->
+                <div class="bg-slate-850 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/30 transition-colors relative overflow-hidden">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-600"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Arquiteto de Software e Soluções</h4>
+                            <p class="text-lg text-cyan-400">Brasilprev</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-sm font-mono text-slate-400">janeiro de 2014 - outubro de 2020 (6 anos 10 meses)</span>
+                            <span class="block text-sm text-slate-500">Brasilia, DF</span>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm leading-relaxed mt-4">
+                        <li>Arquitetura de Soluções e Nuvem: Atuei na definição de arquiteturas de referência para migração de sistemas legados (Java EE) para ambientes Cloud-Native. Utilizei Java, Quarkus e Spring Boot para decompor monólitos em microsserviços, garantindo escalabilidade e resiliência.</li>
+                        <li>Projetei ecossistemas complexos de integração via mensagens XML e JSON, assegurando a comunicação fluida entre novas aplicações em nuvem e sistemas legados, preservando a integridade das transações de negócio.</li>
+                        <li>Liderança técnica nos processos de Construção de Software, padronizando a gestão de dependências e compilação com Maven. Solucionei problemas de "build hell" e inconsistências de versão, garantindo que o artefato construído em desenvolvimento fosse matematicamente idêntico ao de produção.</li>
+                        <li>Estruturei esteiras automatizadas de construção e deploy no Jenkins, reduzindo o ciclo de entrega e eliminando erros manuais no processo de release.</li>
+                        <li>Como Arquiteto especializado, implementei controles de segurança nativos na aplicação para mitigar riscos do OWASP Top 10.</li>
+                        <li>Integramos módulos de assinatura digital e criptografia (AES, RSA, SHA-2) em conformidade com a ICP-Brasil, utilizando SmartCards (PC/SC) e containers para garantir a autenticidade e não-repúdio das transações.</li>
+                        <li>Instituímos aos Devs a cultura de análise estática de código com SonarQube, definindo métricas de qualidade que impedem a "construção" de software com débito técnico elevado.</li>
+                        <li>Utilizo softwares de precisão como Revit para modelagem técnica detalhada e diagramação de infraestrutura. Essa habilidade permite criar documentações visuais de alta fidelidade e layouts de arquitetura física/lógica que superam as limitações de ferramentas de desenho convencionais.</li>
+                        <li>Tradução de requisitos técnicos complexos em apresentações executivas claras, facilitando a aprovação de desenhos de arquitetura junto aos stakeholders.</li>
+                    </ul>
+                </div>
+
+                <!-- Ministério dos Direitos Humanos -->
+                <div class="bg-slate-850 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/30 transition-colors relative overflow-hidden">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-700"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Desenvolvedor de software</h4>
+                            <p class="text-lg text-cyan-400">Ministério dos Direitos Humanos e da Cidadania</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-sm font-mono text-slate-400">fevereiro de 2008 - dezembro de 2013 (5 anos 11 meses)</span>
+                            <span class="block text-sm text-slate-500">Brasília, Distrito Federal, Brasil</span>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm leading-relaxed mt-4">
+                        <li>Desenvolvimento de soluções para gestão pública utilizando Java, C e C++ em módulos de alto desempenho e integração com dispositivos de hardware.</li>
+                        <li>Utilização dos princípios SOLID, TDD e BDD para assegurar um código limpo e de fácil manutenção.</li>
+                        <li>Projetos em nuvem (Azure, AWS) com Serverless (Azure Functions) e SDKs para C++.</li>
+                        <li>Transferência de sistemas legados para a nuvem utilizando o Azure Migrate e o AWS Migration Hub.</li>
+                        <li>Uso de CDI (Contexts and Dependency Injection) para separar as camadas da aplicação.</li>
+                        <li>Criação de modelos de banco de dados e aprimoramento de consultas SQL para lidar com grandes volumes de dados.</li>
+                    </ul>
+                </div>
+
+                <!-- Secretaria de Fazenda do DF -->
+                <div class="bg-slate-850 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/30 transition-colors relative overflow-hidden">
+                    <div class="absolute left-0 top-0 w-1 h-full bg-slate-800"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Líder técnico / Analista de desenvolvimento de software</h4>
+                            <p class="text-lg text-cyan-400">Secretaria de Fazenda do DF</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-sm font-mono text-slate-400">junho de 2000 - janeiro de 2008 (7 anos 8 meses)</span>
+                            <span class="block text-sm text-slate-500">Brasilia DF</span>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm leading-relaxed mt-4">
+                        <li>Gestão técnica de equipes e projetos, alinhando TI aos objetivos estratégicos da organização. Por exemplo, realizei a definição de cronogramas detalhados, utilizei metodologias ágeis para acompanhar entregas e promovi reuniões periódicas de acompanhamento com o cliente para garantir que as demandas fossem corretamente compreendidas e priorizadas. Além disso, organizei os projetos apresentados pelos clientes em etapas estruturadas, garantindo a distribuição eficiente das tarefas entre os membros da equipe e monitorando constantemente o progresso para assegurar a entrega dos resultados conforme o esperado.</li>
+                        <li>Implantação da cultura DevOps usando Docker e Kubernetes para orquestração de contêineres. A adoção envolveu a automação dos processos de integração e entrega contínuas, padronização de ambientes por meio de imagens Docker e implementação de pipelines completos no Kubernetes, promovendo colaboração entre equipes de desenvolvimento e operações e garantido maior agilidade e confiabilidade nas entregas.</li>
+                        <li>Principais tecnologias: Java 6, Spring Boot, Hibernate e bancos de dados MySQL/PostgreSQL. Essas tecnologias foram utilizadas no desenvolvimento de aplicações corporativas, onde Java 6 serviu como linguagem principal. O framework Spring Boot, inserido para agilizar a configuração e gerenciamento dos serviços, enquanto o Hibernate facilitou o mapeamento objeto-relacional. Os bancos de dados MySQL e PostgreSQL foram usados para armazenamento seguro e eficiente das informações.</li>
+                        <li>Vivência inicial com Java, Spring Boot, Hibernate e desenvolvimento frontend utilizando angular/Bootstrap.</li>
+                        <li>Participei do desenvolvimento de aplicações utilizando principalmente Java para criação de sistemas corporativos, focando na automação de processos internos. Na época, trabalhei com frameworks como Hibernate para facilitar o mapeamento objeto-relacional e simplificar as operações de banco de dados, enquanto o Spring Boot começou a ser adotado para estruturar serviços em camadas e garantir integração eficiente entre módulos. No frontend, embora as versões iniciais do Angular e Bootstrap fossem menos presentes ou ainda em fase embrionária, utilizei recursos de interface disponíveis para aprimorar a experiência do usuário e garantir responsividade nas páginas. Essa vivência permitiu adquirir uma sólida compreensão das arquiteturas distribuídas e da importância das boas práticas no desenvolvimento web.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competências Core -->
+        <section id="competencias" class="scroll-mt-32">
+            <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><span class="text-cyan-400 mr-2">/</span> Competências Core</h3>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Java/Jakarta EE</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Spring Boot</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Quarkus</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Kafka</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Docker</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Kubernetes</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">CI/CD Pipelines</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">Cybersecurity</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">NoSQL (CosmosDB, DynamoDB)</span>
+                <span class="px-4 py-2 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-sm font-mono">SQL (Oracle, PostgreSQL)</span>
+            </div>
+        </section>
+
+        <!-- Formação e Certificações -->
+        <section id="formacao" class="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-slate-800 pt-12 scroll-mt-32">
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><span class="text-cyan-400 mr-2">/</span> Formação Acadêmica</h3>
+                <ul class="space-y-6">
+                    <li>
+                        <h4 class="font-bold text-white">Universidade Católica de Brasília</h4>
+                        <p class="text-sm text-cyan-400">Técnologo, Segurança da Informação</p>
+                        <p class="text-xs font-mono text-slate-500">outubro de 2019 - dezembro de 2021</p>
+                    </li>
+                    <li>
+                        <h4 class="font-bold text-white">Unyleya</h4>
+                        <p class="text-sm text-cyan-400">Pós-Graduando em Cybercrime e Cybersecurity: Prevenção e Investigação de Crimes Digitais</p>
+                        <p class="text-xs font-mono text-slate-500">janeiro de 2022 - novembro de 2022</p>
+                    </li>
+                    <li>
+                        <h4 class="font-bold text-white">XP Educação</h4>
+                        <p class="text-sm text-cyan-400">Pós-graduação Lato Sensu, Arquitetura de Software e Soluções</p>
+                        <p class="text-xs font-mono text-slate-500">janeiro de 2024 - outubro de 2024</p>
+                    </li>
+                    <li>
+                        <h4 class="font-bold text-white">Fundação Getulio Vargas</h4>
+                        <p class="text-sm text-cyan-400">Gestão de Pessoas, Human Resources Management/Personnel Administration, General</p>
+                        <p class="text-xs font-mono text-slate-500">abril de 2009 - dezembro de 2011</p>
+                    </li>
+                    <li>
+                        <h4 class="font-bold text-white">Universidade Paulista (UNIP)</h4>
+                        <p class="text-sm text-cyan-400">Bacharelado, Administração de Empresas</p>
+                        <p class="text-xs font-mono text-slate-500">fevereiro de 1999 - dezembro de 2003</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><span class="text-cyan-400 mr-2">/</span> Certificações & Extras</h3>
+                <ul class="space-y-4">
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Treinamento Comercial Bitdefender</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Angular 9 - Essencial</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Certificação Cisco CCNA 200-301</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Curso de Introdution to Cybersecurity</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Administrador de Banco de Dados</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">PowerBuilder</p>
+                    </li>
+                    <li class="bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <p class="font-bold text-slate-300">Revisão de código</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

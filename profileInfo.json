@@ -1,0 +1,58 @@
+{
+  "profileInfo": {
+    "name": "José Claudionor Costa Pontes",
+    "title": "Arquiteto de Software Sênior e Engenheiro de Sistemas",
+    "email": "seu.email@exemplo.com",
+    "phone": "+55 (61) 00000-0000",
+    "location": "Brasília, DF, Brasil"
+  },
+  "about": "Profissional com sólida trajetória em engenharia de software, focado na modernização de sistemas complexos. Especializado na migração de estruturas monolíticas para microsserviços e arquiteturas orientadas a eventos, garantindo alta performance, segurança da informação e resiliência das aplicações.",
+  "skills": {
+    "backend": ["Java (8 a 21)", "Spring Boot", "Quarkus", "Kafka", "RabbitMQ"],
+    "frontend": ["React", "Angular", "Vite", "HTML5", "CSS3", "JavaScript/TypeScript"],
+    "cloud": ["AWS", "Azure", "Docker", "Kubernetes"],
+    "devops": ["DevSecOps", "Jenkins", "SonarQube", "Git", "CI/CD"]
+  },
+  "experience": [
+    {
+      "company": "Projetos Corporativos e Core Banking",
+      "position": "Arquiteto de Software Sênior",
+      "dates": "2000 - Presente",
+      "description": "Liderança no desenho de soluções distribuídas, estabelecimento de Contratos de API rigorosos e orquestração de pipelines DevSecOps para aplicações de missão crítica."
+    },
+    {
+      "company": "Projetos Governamentais (Alerta Cidadão e Solicita)",
+      "position": "Engenheiro de Sistemas",
+      "dates": "2025 - 2026",
+      "description": "Implantação e manutenção de APIs críticas, configuração de jobs no Nomad e estruturação de pipelines no GitLab para ambientes de alta disponibilidade."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ms-conta-pagamento",
+      "description": "Estudo de caso focado em Core Banking, englobando gerenciamento de contas e processamento de empréstimos em microsserviços.",
+      "technologies": ["Java 21", "Spring Boot 3.2.2", "Virtual Threads"],
+      "link": "#",
+      "image": "images/ms-conta-preview.jpg"
+    },
+    {
+      "name": "Arquitetura Segura",
+      "description": "Plataforma web dedicada a ferramentas e artigos de segurança em arquitetura de software.",
+      "technologies": ["React", "Vite", "Tailwind CSS"],
+      "link": "#",
+      "image": "images/arquitetura-segura-preview.jpg"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pós-Graduação",
+      "degree": "Especialização em Cybersecurity, Cybercrimes e Arquitetura e Soluções de Software",
+      "date": "Concluído"
+    },
+    {
+      "institution": "Ensino Superior",
+      "degree": "Graduação em Segurança da Informação",
+      "date": "Concluído"
+    }
+  ]
+}
